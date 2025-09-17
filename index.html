@@ -1,0 +1,163 @@
+                                                                                                                                            <!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Team</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+
+<header>
+    <h1>Meet Our Team</h1>
+</header>
+
+<section class="team-container">
+    <!-- Team Member 1 -->
+    <div class="team-member">
+        <img src="./assets/james.jpg" alt="James Darryl Villaflor" />
+        <h3>James Darryl Villaflor</h3>
+        <p>The Newbie</p>
+        <p>willing to learn and expand his knowledge of HTML/CSS. He is sometimes lazy but always submits his activities and schoolwork on time.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/1CmVyPJK8G/" target="_blank" >Facebook</a>
+            <a href="https://www.instagram.com/_dyeeems/" target="_blank" >Instagram</a>
+        </div>
+    </div>
+
+    <!-- Team Member 2 -->
+    <div class="team-member">
+        <img src="./assets/jerome.jpg" alt="Jerome Ricamata" />
+        <h3>Jerome Ricamata</h3>
+        <p>The Designer</p>
+        <p>currently studying Information Technology and interested in pursuing a career in software development.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/jerome.ricamata.58" target="_blank" >Facebook</a>
+            <a href="https://www.instagram.com/j_rummm/" target="_blank" >Instagram</a>
+        </div>
+    </div>
+
+    <!-- Team Member 3 -->
+    <div class="team-member">
+        <img src="./assets/yna.jpg" alt="Juliana Emana" />
+        <h3>Juliana Emana</h3>
+        <p>The Strategist</p>
+        <p>an IT student dedicated to building her skills in programming, problem-solving, and innovative tech solutions.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/1FzAv48nzh/" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/tsukiyna/" target="_blank" >Instagram</a>
+        </div>
+    </div>
+
+    <!-- Team Member 4 -->
+    <div class="team-member">
+        <img src="./assets/jamaica.jpg" alt="Jamaica Cañeda" />
+        <h3>Jamaica Cañeda</h3>
+        <p>Cybersecurity Rookie</p>
+        <p>Curious, and passionate about IT innovations. Eager to explore cybersecurity to help build safer digital systems through continuous learning and hands-on growth.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/jamaica.caneda.50" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/jajajaammm___/" target="_blank" >Instagram</a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact / Feedback Form Section -->
+<section class="form-section">
+  <h2>Send Us a Message</h2>
+  <form action="process.php" method="POST" class="contact-form">
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+</section>
+
+<style>
+/* Section Style */
+.form-section {
+  text-align: center;
+  margin: 50px auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.form-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Box */
+.contact-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Labels & Inputs */
+.form-group {
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #444;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+  outline: none;
+}
+
+/* Submit Button */
+.submit-btn {
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #5548d2;
+}
+</style>
+
+
+
+</body>
+</html>
